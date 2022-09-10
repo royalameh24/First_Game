@@ -7,6 +7,7 @@
 
 import SpriteKit
 import GameplayKit
+import CoreMotion
 
 class GameScene: SKScene, SKPhysicsContactDelegate{
     var starfield:SKEmitterNode!
@@ -21,6 +22,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
     var gameTimer:Timer!
     var alienCategory:UInt32 = 1
     var torpedoCategory:UInt32 = 2
+    /*let motionManager = CMMotionManager()
+    var xAcceleration:CGFloat = 0*/
     
     
     
@@ -55,13 +58,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         
         run(SKAction.repeatForever(SKAction.sequence([SKAction.wait(forDuration: 0.75), SKAction.run(addAlien)])))
         
-        let animationDuration:TimeInterval = 3
+        /*let animationDuration:TimeInterval = 3
         let animation1:SKAction = SKAction.move(to: CGPoint(x: 768 - player.size.width / 2, y: player.size.height / 2), duration: animationDuration)
         let animation2:SKAction = SKAction.move(to: CGPoint(x: 0 + player.size.width / 2, y: player.size.height / 2), duration: animationDuration)
         
         let actionArray = [animation1, animation2]
         
-        player.run(SKAction.repeatForever(SKAction.sequence(actionArray)))
+        player.run(SKAction.repeatForever(SKAction.sequence(actionArray))) */
         
     }
     
@@ -134,8 +137,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
-            
-            
+            player.position.x = touch.location(in: self).x
         }
     }
 }
