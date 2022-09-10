@@ -15,6 +15,8 @@
 		D23CA13E28CC0C5F003D19C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23CA13C28CC0C5F003D19C0 /* Main.storyboard */; };
 		D23CA14028CC0C60003D19C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23CA13F28CC0C60003D19C0 /* Assets.xcassets */; };
 		D23CA14328CC0C60003D19C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23CA14128CC0C60003D19C0 /* LaunchScreen.storyboard */; };
+		D23CA14A28CC1562003D19C0 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = D23CA14928CC1562003D19C0 /* explosion.sks */; };
+		D23CA14C28CC184A003D19C0 /* Space.sks in Resources */ = {isa = PBXBuildFile; fileRef = D23CA14B28CC184A003D19C0 /* Space.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D23CA13D28CC0C5F003D19C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D23CA13F28CC0C60003D19C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23CA14228CC0C60003D19C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D23CA14928CC1562003D19C0 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		D23CA14B28CC184A003D19C0 /* Space.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Space.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D23CA13428CC0C5F003D19C0 /* GameScene.sks */,
 				D23CA13628CC0C5F003D19C0 /* Actions.sks */,
 				D23CA13828CC0C5F003D19C0 /* GameScene.swift */,
+				D23CA14928CC1562003D19C0 /* explosion.sks */,
+				D23CA14B28CC184A003D19C0 /* Space.sks */,
 				D23CA13A28CC0C5F003D19C0 /* GameViewController.swift */,
 				D23CA13C28CC0C5F003D19C0 /* Main.storyboard */,
 				D23CA13F28CC0C60003D19C0 /* Assets.xcassets */,
@@ -132,8 +138,10 @@
 				D23CA13E28CC0C5F003D19C0 /* Main.storyboard in Resources */,
 				D23CA13528CC0C5F003D19C0 /* GameScene.sks in Resources */,
 				D23CA14028CC0C60003D19C0 /* Assets.xcassets in Resources */,
+				D23CA14A28CC1562003D19C0 /* explosion.sks in Resources */,
 				D23CA14328CC0C60003D19C0 /* LaunchScreen.storyboard in Resources */,
 				D23CA13728CC0C5F003D19C0 /* Actions.sks in Resources */,
+				D23CA14C28CC184A003D19C0 /* Space.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
