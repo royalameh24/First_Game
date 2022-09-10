@@ -28,7 +28,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
     
     
     override func didMove(to view: SKView) {
-        starfield = SKEmitterNode(fileNamed: "Space")
+        starfield = SKEmitterNode(fileNamed: "space")
         starfield.position = CGPoint(x: 0, y: 1024)
         starfield.advanceSimulationTime(10)
         self.addChild(starfield)
