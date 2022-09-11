@@ -100,6 +100,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         torpedo.run(SKAction.move(to: finalPosition, duration: 1.25))
         self.addChild(torpedo)
         
+        run(SKAction.playSoundFileNamed("sound-effects-library-laser-gun.mp3", waitForCompletion: false))
+        
         torpedo.physicsBody = SKPhysicsBody(circleOfRadius: 5)
         torpedo.physicsBody?.categoryBitMask = torpedoCategory
         torpedo.physicsBody?.contactTestBitMask = alienCategory
@@ -121,7 +123,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         self.addChild(explosion)
         alien.removeFromParent()
         torpedo.removeFromParent()
-        
+        run(SKAction.playSoundFileNamed("mixkit-arcade-chiptune-explosion-1691.wav", waitForCompletion: false))
         score += 1
         
         
