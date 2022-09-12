@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D209107828CE740C000F560E /* sound-effects-library-laser-gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D209107728CE740C000F560E /* sound-effects-library-laser-gun.mp3 */; };
 		D209107A28CE742C000F560E /* mixkit-arcade-chiptune-explosion-1691.wav in Resources */ = {isa = PBXBuildFile; fileRef = D209107928CE742C000F560E /* mixkit-arcade-chiptune-explosion-1691.wav */; };
+		D209107C28CF5EC9000F560E /* electrode-115161.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D209107B28CF5EC9000F560E /* electrode-115161.mp3 */; };
 		D23CA13328CC0C5F003D19C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23CA13228CC0C5F003D19C0 /* AppDelegate.swift */; };
 		D23CA13528CC0C5F003D19C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D23CA13428CC0C5F003D19C0 /* GameScene.sks */; };
 		D23CA13728CC0C5F003D19C0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D23CA13628CC0C5F003D19C0 /* Actions.sks */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D209107728CE740C000F560E /* sound-effects-library-laser-gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-effects-library-laser-gun.mp3"; path = "../../../../Downloads/sound-effects-library-laser-gun.mp3"; sourceTree = "<group>"; };
 		D209107928CE742C000F560E /* mixkit-arcade-chiptune-explosion-1691.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-arcade-chiptune-explosion-1691.wav"; sourceTree = "<group>"; };
+		D209107B28CF5EC9000F560E /* electrode-115161.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "electrode-115161.mp3"; sourceTree = "<group>"; };
 		D23CA12F28CC0C5F003D19C0 /* First_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23CA13228CC0C5F003D19C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D23CA13428CC0C5F003D19C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				D23CA13428CC0C5F003D19C0 /* GameScene.sks */,
 				D23CA13628CC0C5F003D19C0 /* Actions.sks */,
 				D23CA13828CC0C5F003D19C0 /* GameScene.swift */,
+				D209107B28CF5EC9000F560E /* electrode-115161.mp3 */,
 				D209107728CE740C000F560E /* sound-effects-library-laser-gun.mp3 */,
 				D209107928CE742C000F560E /* mixkit-arcade-chiptune-explosion-1691.wav */,
 				D23CA14928CC1562003D19C0 /* explosion.sks */,
@@ -150,6 +153,7 @@
 				D23CA14328CC0C60003D19C0 /* LaunchScreen.storyboard in Resources */,
 				D23CA13728CC0C5F003D19C0 /* Actions.sks in Resources */,
 				D23CA14C28CC184A003D19C0 /* space.sks in Resources */,
+				D209107C28CF5EC9000F560E /* electrode-115161.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -58,6 +58,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         
         run(SKAction.repeatForever(SKAction.sequence([SKAction.wait(forDuration: 0.75), SKAction.run(addAlien)])))
         
+        run(SKAction.repeatForever(SKAction.playSoundFileNamed("electrode-115161.mp3", waitForCompletion: true)))
+        
         /*let animationDuration:TimeInterval = 3
         let animation1:SKAction = SKAction.move(to: CGPoint(x: 768 - player.size.width / 2, y: player.size.height / 2), duration: animationDuration)
         let animation2:SKAction = SKAction.move(to: CGPoint(x: 0 + player.size.width / 2, y: player.size.height / 2), duration: animationDuration)
